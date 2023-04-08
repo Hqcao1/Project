@@ -5,6 +5,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text>Display Something</Text>
+      var name = prompt("What is your name?");
       <StatusBar style="auto" />
     </View>
   );
